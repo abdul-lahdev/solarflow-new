@@ -232,12 +232,12 @@ export default function ProjectHighlights() {
                     }`}
                   />
 
-                  {/* Vertical Branch Stem (Up or Down) */}
+                  {/* Vertical Branch Stem (Up or Down - connects baseline dot to terminal circle) */}
                   <div
                     className={`absolute left-[5px] w-[1.5px] transition-all duration-700 ${
                       isTop
-                        ? "bottom-[calc(44%)] h-24 sm:h-32 origin-bottom"
-                        : "top-[56%] h-24 sm:h-32 origin-top"
+                        ? "bottom-[calc(44%)] h-[196px] sm:h-[234px] origin-bottom"
+                        : "top-[56%] h-[108px] sm:h-[140px] origin-top"
                     } ${isPassed ? "bg-[#E8652D]" : "bg-gray-200"}`}
                   />
 
